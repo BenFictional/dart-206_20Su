@@ -6,9 +6,7 @@ Lesson 1 introduces the format of the class, and our research blogs. We will exp
 
 **Reading:** Don Norman's _The Design of Everyday Things_
 
-**Exercise 1:** Self-portrait Site
-
-**Exercise 2: **Create a Blog
+**Exercise 1:** Create a blog
 
 **Assignment:** Blog post
 

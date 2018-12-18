@@ -43,7 +43,7 @@ Instead of the traditional "[http://www](http://www)..." you should see somethin
 
 This is the **path** for whatever file you opened. The slashes denote folders, meaning that my file "Mosaic.png" is located in my Documents folder, within my user folder, within a folder called "Users", which is at the root level folder of my computer's hard drive.
 
-If you haven't done any sort of coding before, this might blow your mind, but any URL you type into your web browser is the same sort of file path—except the files you're opening are usually HTML files \(e.g. "http://some-website.com/some-file.html"\) and not JPEG's. So when you go to [http://www.worldcampus.psu.edu/about-us/mission](http://www.worldcampus.psu.edu/about-us/mission) you're accessing a file called "mission" within a folder called "about-us." Sometimes the file extension will be hidden by the browser, but oftentimes you will see URL's ending in ".html"
+If you haven't done any sort of coding before, this might blow your mind, but any URL you type into your web browser is the same sort of file path—except the files you're opening are usually HTML files \(e.g. "\[[http://some-website.com/some-file.html"\]\(http://some-website.com/some-file.html"\)\](http://some-website.com/some-file.html"]%28http://some-website.com/some-file.html"%29\)\) and not JPEG's. So when you go to [http://www.worldcampus.psu.edu/about-us/mission](http://www.worldcampus.psu.edu/about-us/mission) you're accessing a file called "mission" within a folder called "about-us." Sometimes the file extension will be hidden by the browser, but oftentimes you will see URL's ending in ".html"
 
 Unlike the image you opened earlier, webpages are not saved on your local computer; they're saved on a computer somewhere else on the planet. These computers are called **servers,** and they're built specifically to host files and make them accessible over the Internet. Here's a giant server center depicted on the show _Silicon Valley_:
 
@@ -51,7 +51,13 @@ Unlike the image you opened earlier, webpages are not saved on your local comput
 
 We'll get into the details of how to upload files to and from a remote server soon, but for now just appreciate the fact that every page you visit online is a portal into a computer somewhere else in the world.
 
-It's entirely possible to create HTML files on your local computer and view them in a web browser.
+### What's a webpage?
 
-In fact, that's what we're going to do in this lesson.
+So what are we looking at when we view a webpage? Your web browser is taking a bunch of code \(saved into a .html file\) and translating it to look like a pretty, human-friendly website. The fundamental code that makes up web pages falls into two categories: HTML for content and CSS for visual appearance. This video serves as a nice introduction: 
+
+https://www.youtube.com/watch?v=w-kBRUXsuSQ
+
+NOTE: This video is from a tutorial for a design app called Webflow, that we'll use later on in this class. But before we get into anything too fancy, it will serve you well to learn the basic building blocks of HTML and CSS...
+
+
 

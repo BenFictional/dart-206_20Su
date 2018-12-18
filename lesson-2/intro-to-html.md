@@ -2,7 +2,7 @@
 
 When discussing websites, apps, and software creation, the workload is frequently split into two categories: **designers **create the visual look of the content, and create a layout that organizes everything in a logical way; **developers **take the visual design and turn it into a functional website or app using whatever platform best fits the job \(usually involving a lot of coding\).
 
-This workflow allows designers and developers to specialize in their areas, and leave some details to their collaborators—but for individuals and small teams, the distinction may not be as clear. Even if you are working in one of those roles, it's very useful to know some of the work associated with the other side of the job. Today designers are more frequently expected to build functioning prototypes of websites,  prepare files for development use, and understand what is and isn't possible in a design.
+This workflow allows designers and developers to specialize in their areas, and leave some details to their collaborators—but for individuals and small teams, the distinction may not be as clear. Even if you are working in one of those roles, it's very useful to know some of the work associated with the other side of the job. Today designers are more frequently expected to build functioning prototypes of websites, prepare files for development use, and understand what is and isn't possible in a design.
 
 ## HTML
 

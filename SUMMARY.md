@@ -17,8 +17,7 @@
 * [Unit 1](unit-1.md)
   * [Lesson 1](unit-1/lesson-1.md)
     * [Introducing Wordpress](unit-1/lesson-1/introducing-wordpress.md)
-    * [Exercise 1: Self-Portrait Site](unit-1/lesson-1/exercise-1-self-portrait-site.md)
-    * [Exercise 2: Create a Blog](unit-1/lesson-1/exercise-2-create-a-blog.md)
+    * [Exercise 1: Create a Blog](unit-1/lesson-1/exercise-2-create-a-blog.md)
     * [Assignment: Blog Post](unit-1/lesson-1/assignment-blog-post.md)
   * [Lesson 2](lesson-2.md)
     * [How the Internet Works](lesson-2/how-the-internet-works.md)
@@ -65,6 +64,4 @@
     * [Exercise 2: Written Statements](unit-3/lesson-6/exercise-2-written-statements.md)
     * [Blog](unit-3/lesson-6/blog.md)
     * [Assignment: Final Website](unit-3/lesson-6/assignment-final-website.md)
-
-
 

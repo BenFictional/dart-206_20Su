@@ -20,16 +20,20 @@ Go ahead and try it.
 
 ...
 
-Back now? Okay. In order to take that code and render it consistently on any device, anywhere in the world, webpages are built and shared within a set framework called **HyperText Transfer Protocol \(HTTP\)**. HyperText refers to interconnected content that can be linked together via [hyperlinks,](https://en.wikipedia.org/wiki/Hyperlink) but let's not get too technical.
+Back now? Okay, that file is showing you a bunch of code written in **HyperText Markup Language \(HTML\)**. Here's a quick introduction to HTML and it's partner in crime, CSS:
 
-The actual content that is transferred via HTTP over the Internet are typically text files written in **HyperText Markup Language \(HTML\)**, although some websites use a different coding language \(PHP or Java\) to create web pages, the end product is HTML.
+[https://www.youtube.com/watch?v=w-kBRUXsuSQ](https://www.youtube.com/watch?v=w-kBRUXsuSQ)
 
-Web browsers can read other types of files too, for example, you can open a JPEG in your web browser. You should try this too.
+NOTE: This video is from a tutorial for a design app called Webflow, that we'll use later on in this class. But before we get into anything too fancy, let's review the fundamentals.
 
-1. Right-click on an image file anywhere on your computer.
+In order to take that code and render it consistently on any device, anywhere in the world, webpages are built and shared within a set framework called **HyperText Transfer Protocol \(HTTP\)**. HyperText refers to interconnected content that can be linked together via [hyperlinks,](https://en.wikipedia.org/wiki/Hyperlink) but let's not get too technical.
+
+Web browsers can read other types of files too! For example, you can open a JPEG in your web browser. You should try this too.
+
+1. Right-click on an image file anywhere on your computer. A local file, not an image in your web browser.
 2. Choose "Open with", and choose a web browser like Chrome or Firefox. Alternatively you can drag it onto the icon in the doc if you're on a Mac.
 
-If you need an image file, you can download the image below of the first web browser with a graphical interface  \([Mosaic, from 1993](https://en.wikipedia.org/wiki/Mosaic_%28web_browser%29)\).
+If you need an image file, you can right-click and download the image below of the first web browser with a graphical interface  \([Mosaic, from 1993](https://en.wikipedia.org/wiki/Mosaic_%28web_browser%29)\).
 
 **Consider: **Does Mosaic look similar or different from your current web browser? What are some of the design details that have stuck around for 20+ years?
 
@@ -43,7 +47,7 @@ Instead of the traditional "[http://www](http://www)..." you should see somethin
 
 This is the **path** for whatever file you opened. The slashes denote folders, meaning that my file "Mosaic.png" is located in my Documents folder, within my user folder, within a folder called "Users", which is at the root level folder of my computer's hard drive.
 
-If you haven't done any sort of coding before, this might blow your mind, but any URL you type into your web browser is the same sort of file path—except the files you're opening are usually HTML files \(e.g. "\[[http://some-website.com/some-file.html"\]\(http://some-website.com/some-file.html"\)\](http://some-website.com/some-file.html"]%28http://some-website.com/some-file.html"%29\)\) and not JPEG's. So when you go to [http://www.worldcampus.psu.edu/about-us/mission](http://www.worldcampus.psu.edu/about-us/mission) you're accessing a file called "mission" within a folder called "about-us." Sometimes the file extension will be hidden by the browser, but oftentimes you will see URL's ending in ".html"
+If you haven't done any sort of coding before, this might blow your mind, but any URL you type into your web browser is the same sort of file path—except the files you're opening are usually HTML files \(e.g. "\[\[[http://some-website.com/some-file.html"\]\(http://some-website.com/some-file.html"\)\]\(http://some-website.com/some-file.html"\]\(http://some-website.com/some-file.html"\)\)\](http://some-website.com/some-file.html"]%28http://some-website.com/some-file.html"%29]%28http://some-website.com/some-file.html"]%28http://some-website.com/some-file.html"%29%29\)\) and not JPEG's. So when you go to [http://www.worldcampus.psu.edu/about-us/mission](http://www.worldcampus.psu.edu/about-us/mission) you're accessing a file called "mission" within a folder called "about-us." Sometimes the file extension will be hidden by the browser, but oftentimes you will see URL's ending in ".html"
 
 Unlike the image you opened earlier, webpages are not saved on your local computer; they're saved on a computer somewhere else on the planet. These computers are called **servers,** and they're built specifically to host files and make them accessible over the Internet. Here's a giant server center depicted on the show _Silicon Valley_:
 
@@ -51,13 +55,7 @@ Unlike the image you opened earlier, webpages are not saved on your local comput
 
 We'll get into the details of how to upload files to and from a remote server soon, but for now just appreciate the fact that every page you visit online is a portal into a computer somewhere else in the world.
 
-### What's a webpage?
 
-So what are we looking at when we view a webpage? Your web browser is taking a bunch of code \(saved into a .html file\) and translating it to look like a pretty, human-friendly website. The fundamental code that makes up web pages falls into two categories: HTML for content and CSS for visual appearance. This video serves as a nice introduction: 
-
-https://www.youtube.com/watch?v=w-kBRUXsuSQ
-
-NOTE: This video is from a tutorial for a design app called Webflow, that we'll use later on in this class. But before we get into anything too fancy, it will serve you well to learn the basic building blocks of HTML and CSS...
 
 
 

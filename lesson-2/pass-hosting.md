@@ -36,7 +36,9 @@ You can also use a standalone application to manage your web hosting. This is us
 
 We'll use Filezilla for the demo in Exercise 1 since it's open-source and easy to get started with.
 
-### 
+### Support {#ce1b1e8ce920100d134d0212d3a8f53f}
+
+There will be a more detailed walkthrough included with the first exercise utilizing PASS, but for general help with permissions issues or server problems visit the [Penn State IT help page](http://it.psu.edu/get-support).
 
 
 

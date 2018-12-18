@@ -26,10 +26,11 @@
     * [PASS Hosting](lesson-2/pass-hosting.md)
     * [Introducing Illustrator](unit-2/lesson-3/introducing-illustrator.md)
     * [The Grid](lesson-2/the-grid.md)
-    * [Exercise 1 Illustrator Mockup](lesson-2/exercise-1break-the-internet.md)
-    * [Exercise 2: HTML Roadtest](lesson-2/exercise-2-hello-world.md)
-    * [Assignment: Landing Page](lesson-2/assignment-dueling-stylesheets.md)
-    * [Design Summary Template](lesson-2/design-summary-template.md)
+    * [Exercise 1: CSS Disco](lesson-2/exercise-1-css-disco.md)
+    * [Exercise 2: FTP Roadtest](lesson-2/exercise-2-hello-world.md)
+    * [Exercise 3: Grid Sketch](lesson-2/exercise-1break-the-internet.md)
+
+    * [Exercise 3: Grid Sketch](lesson-2/exercise-1break-the-internet.md)
     * [Blog ](lesson-2/blog-entry.md)
 * [Unit 2](unit-2.md)
   * [Lesson 3](unit-2/lesson-3.md)
@@ -64,4 +65,6 @@
     * [Exercise 2: Written Statements](unit-3/lesson-6/exercise-2-written-statements.md)
     * [Blog](unit-3/lesson-6/blog.md)
     * [Assignment: Final Website](unit-3/lesson-6/assignment-final-website.md)
+
+
 

@@ -28,11 +28,9 @@ In other words, you can click the button and make things flash and change colors
    * padding
    * transform:rotate
    * opacity
-7. Now create additional CSS properties for the "active" state of the page. The goal is to have the site's appearance change when the button is clicked. Make it a big, dramatic shift so that clicking the button really surprises the user. You must \_at least \_change the "Welcome" header and the background colors, but try playing with some of the properties above.
+7. Now create additional CSS properties for the "active" state of the page. The goal is to have the site's appearance change when the button is clicked. Make it a big, dramatic shift so that clicking the button really surprises the user. You must \_at least \_change the "Let's dance" header and the background colors, but try playing with some of the properties above.
 8. You don't need to understand the javascript at the bottom of the page, but what it does is add or remove the class "active" to the \`&lt;body&gt;\` element every time the button is clicked. So to set the color of the \`h1\` in the initial state, you would write \`h1 {color: purple;}\`and to target it while the body has the "active" class, you would write body.active \`h1 {color: orange;}\` — Note the space between the selector elements. Read more about [CSS selectors](https://www.w3schools.com/csSref/css_selectors.asp) for reference.
 9. Recap: any HTML element can one set of CSS properties in the "initial" state, and a second set of properties in the site's "active" state. Have fun!
 
 NOTE: This file includes the CSS within the &lt;head&gt; of the HTML file between the &lt;style&gt; tags. More often, developers put the CSS in a separate .css file and "connect" it to the HTML file. This more clearly separates the content from the style and avoids scrolling through enormous lengths of code. But to keep things simple for now, everything is in one file.
-
-
 

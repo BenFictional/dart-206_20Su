@@ -29,7 +29,6 @@
     * [Exercise 1: CSS Disco](lesson-2/exercise-1-css-disco.md)
     * [Exercise 2: FTP Roadtest](lesson-2/exercise-2-hello-world.md)
     * [Exercise 3: Grid Sketch](lesson-2/exercise-1break-the-internet.md)
-
     * [Exercise 3: Grid Sketch](lesson-2/exercise-1break-the-internet.md)
     * [Blog ](lesson-2/blog-entry.md)
 * [Unit 2](unit-2.md)
@@ -45,7 +44,7 @@
     * [Assignment: Narrative Mockup ](unit-2/lesson-3/assignment-narrative-mockup.md)
     * [Blog](unit-2/lesson-3/blog.md)
   * [Lesson4](unit-2/lesson4.md)
-    * [Introducing Muse](unit-2/lesson-4/introducing-muse.md)
+    * [Introducing Webflow](unit-2/lesson-4/introducing-muse.md)
     * [Exercise 1: Muse Landing Page](unit-2/lesson-4/exercise-1-muse-landing-page.md)
     * [Exercise 2: Vector Artwork](unit-2/lesson-4/exercise-2-vector-artwork.md)
     * [Assignment: Narrative Website](unit-2/lesson-4/assignment-narrative-website.md)
@@ -65,6 +64,4 @@
     * [Exercise 2: Written Statements](unit-3/lesson-6/exercise-2-written-statements.md)
     * [Blog](unit-3/lesson-6/blog.md)
     * [Assignment: Final Website](unit-3/lesson-6/assignment-final-website.md)
-
-
 

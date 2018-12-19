@@ -51,7 +51,7 @@ producttypeid%3a2)\(another Lynda video\) to easily reuse them in your project w
 
 You should _absolutely_ look beyond the standard [web-safe fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for this assignment.
 
-For easy use in building the eventual website, use fonts from [Google Fonts](http://fonts.google.com) or [Adobe Typekit](https://typekit.com).
+For easy use in building the eventual website, use fonts from [Google Fonts](http://fonts.google.com).
 
 One approach is to create some placeholder text outside of your document's artboards to get a feel for how your fonts look together, and you can adjust the relative size of headers and body text. That way you can quickly use the Eyedropper tool \(I\) to apply those styles to new text in your project.
 

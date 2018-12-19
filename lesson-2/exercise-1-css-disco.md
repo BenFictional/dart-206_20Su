@@ -1,6 +1,6 @@
-This exercise is designed to let you play around with HTML and CSS elements to learn how they work in a fun, interactive experiment.
+This exercise is designed to let you play with HTML and CSS elements and learn how they work in a fun, interactive experiment.
 
-The sample webpage includes a button. When you click the button, a new "class" is applied to the  &lt;body&gt; element. By targeting elements with CSS you can create new visual styles for the websites "initial" \(when the page first loads\) and "active" \(after the button is clicked\) states.
+The sample webpage includes a button. When you click the button, a new "class" is applied to the  &lt;body&gt; element. By targeting elements with CSS you can create new visual styles for the website's "initial" \(when the page first loads\) and "active" \(after the button is clicked\) states.
 
 In other words, you can click the button and make things flash and change colors.
 

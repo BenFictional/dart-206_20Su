@@ -10,7 +10,7 @@ Your examples can include websites, apps, video games, magazines, books, posters
 
 **For each example, include:**
 
-* One more more image
+* One more more image \(images should be large enough to see design details described in your writing\).
 * Hyperlink to the site itself — do not paste in the full URL. Create a [hyperlink](https://www.wpbeginner.com/beginners-guide/beginners-guide-on-how-to-add-a-link-in-wordpress/) around a word or phrase.
 
 **Write a short overview of each example:**
@@ -20,9 +20,7 @@ Your examples can include websites, apps, video games, magazines, books, posters
 * Explain why the design is successful or not.
 * Analyze the design from the perspective of the designer. Why might they have made certain design choices? What were they thinking or trying to accomplish? 
 
-You may include additional thoughts on grid-based design or trends in layout design, websites, or technology. 
+You may include additional thoughts on grid-based design or trends in layout design, websites, or technology.
 
-**Target length:** 500-700 words. 
-
-
+**Target length:** 500-700 words.
 

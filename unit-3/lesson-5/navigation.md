@@ -60,3 +60,5 @@ Some quick thoughts on navigation menus, which we haven't talked about much yet,
 
 ![](/assets/lesson-5/giphy-downsized.gif)
 
+Learn about [managing your navigation menu](https://university.webflow.com/topic/navbar) in Webflow at the Webflow University. 
+

@@ -26,6 +26,10 @@ Compared to your 2D mockup, a live website is interactive—which means you can 
 
 Learn how to create [parallax scrolling effects](https://university.webflow.com/article/parallax-movement-on-scroll) at Webflow University. 
 
+Animations can be triggered by interactions like a user's click, or when they hover over an element, or scroll to a certain point on a page. This is a fantastic way to add some energy and personality to your site, especially for a narrative project like this. You can animate any element (text, image, etc.) but in order to avoid overwhelming your users, ask yourself: does this animation add to the communication of my story or distract from it?
+
+Learn how to create [interactions and animations](https://university.webflow.com/courses/interactions-and-animations-course) at Webflow University. 
+
 ### Submission for Peer Review
 
 Create a "narrative" folder in your PASS directory and upload your finished Muse site there when it is ready. You can use the built-in publishing feature in Muse or export as HTML and upload with Filezilla.

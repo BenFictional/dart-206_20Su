@@ -1,8 +1,4 @@
-![](/assets/lesson-5/muse-page-layout.png)
-
-If you watched Lynda's Muse Essential Training, you got a glimpse of how Muse handles site navigation. We'll eventually build our final sites in Muse, so you'll return to this screen, but it's also a nice visualization of how any site is laid out. This "roadmap" shows the **top level pages**\(featured in the **navigation menu **at the top of each page\), with **children pages **nested below.
-
-You're probably familiar with this layout from a lifetime browsing the web. But it's important to plan out the content of your site efficiently, and avoid having too many pages. Make sure that the content is laid out in a logical way, so users don't have any trouble finding information.
+You're probably familiar with the idea of multi-page websites from a lifetime browsing the web, but it's important to plan out the content of your site efficiently, and avoid having too many pages. Make sure that the content is laid out in a logical way, so users don't have any trouble finding information.
 
 Here's a sample hierarchy of pages:
 
@@ -18,9 +14,11 @@ Here's a sample hierarchy of pages:
   * FAQ
   * Contact
 
-The design of children pages could be identical or unique. In this example, the children pages below "Store" would probably look identical expect for **metadata **like the item's name, cost, description, and an image. However the children pages below Support might look different... "FAQ" would probably have a big list of questions that users can click on, while "Contact" would have some sort of web form that users could fill out.
+The design of children pages could be identical or unique. In this example, the children pages below "Store" would probably look identical expect for **metadata **like the item's name, cost, description, and an image. However the children pages below Support might look different... "FAQ" would probably have a big list of questions that users can click on, while "Contact" would have some sort of web form that users could fill out. 
 
-With a Content Management System \(CMS\) like Wordpress, you can just design a single page for "Store items" and let Wordpress dynamically fill in the metadata. Since Muse only makes static websites, you'll have to manually copy and paste the page and type in the metadata for items like this.
+Visual design should help a user locate where they are in a design; each page should feel different, and yet maintain a clear relationship to the website identity. 
+
+With a Content Management System \(CMS\) like Wordpress, you can just design a single page for "Store items" and let Wordpress dynamically fill in the metadata. Webflow can do this too, which you can learn about on the Advanced Webflow page below.
 
 Some navigation menus also show children pages in a submenu when you hover over the relevant parent page. This helps users go directly to the page they want without having to load interstitial pages, but it can be unwieldy if you have a lot of pages.
 

@@ -40,7 +40,10 @@ While your finished favicon should be 32px x 32px, it will be much easier to des
    1. PNG
    2. Click on "Scale" and change it from "1x" to "32px".
    3. Click the "Add scale" button and set the second row to "256px".
+   4. Add "suffixes" to each scale so you can tell the exported files apart. You can also rename your artboard to something descriptive like "icon". See screenshot. 
 7. Click Export
+
+ILLUSTRATOR EXPORT IMAGE
 
 **Set your favicon in Webflow:**
 

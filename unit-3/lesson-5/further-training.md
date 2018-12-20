@@ -11,7 +11,7 @@ Students will develop the appearance of the site throughout this lesson, but for
 
 #### Requirements for the final site:
 
-* At least five pages, including a designated home page.
+* At least five pages, including a designated home page (can include subpages or product pages, they don't all need to be top-level pages).
 * Each page must have a header, navigation menu, and footer.
 * The site must contain at least five images and/or videos.
 

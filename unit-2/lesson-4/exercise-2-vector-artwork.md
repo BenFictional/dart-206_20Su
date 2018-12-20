@@ -4,13 +4,14 @@ You may have already created some original graphics for your narrative site whil
 
 * Design original artwork or graphics for use in your website
 * Export files optimized for the web
-* Set a favicon for your site \(32px by 32px PNG file\)
+* Set a favicon and touch icon for your site \(32x32 and 256x256 PNG files\)
 
 ### Requirements
 
 * Design a vector icon or illustration in Adobe Illustrator.
 * Include the vector graphic in your website.
-* Set a graphic as a favicon for your site in Muse.
+* Set a graphic as a favicon for your site in Webflow.
+* Do **not** use a photograph as your favicon. 
 
 You can use the same image for inclusion in your site and the favicon, or you can make two different vector images if your idea for a favicon doesn't make sense to include in the actual content of your site.
 
@@ -22,7 +23,7 @@ Favicons were originally designed to be shown in the bookmarks menu of Internet 
 
 Today most favicons are 32px x 32px PNG images, and they don't have to be stored in the root folder. Many sites also include larger "Touch-icons" for use in certain contexts on mobile devices.
 
-Muse makes it very easy to set a favicon for your site, but if you ever want to set up a favicon in another development platform, here is a [thorough guide for all your icon needs.](https://css-tricks.com/favicon-quiz/)
+Webflow makes it very easy to set a favicon for your site, but if you ever want to set up a favicon in another development platform, here is a [thorough guide for all your icon needs.](https://css-tricks.com/favicon-quiz/)
 
 ![](/assets/lesson-4/top-favicons.jpg)
 
@@ -32,22 +33,20 @@ This image shows the favicons of the top 300,000 websites, with their size deter
 
 While your finished favicon should be 32px x 32px, it will be much easier to design it at a larger size, and then resize it when you're finished. Designing your icons in Illustrator will provide the most flexibility because vector artwork can be infinitely resized without any change in quality.
 
-1. Create a new document that is 320px x 320px \(or larger, as long as it's square\). 
-2. Design your icon
-3. Select your entire icon and choose Object &gt;&gt;&gt; Expand 
-   * This ensures that any strokes or text won't change when your resize it; if you want to keep the original artwork for future use, then just duplicate your artboard. 
-   * This isn't strictly necessary since the artwork will get rasterized when we save it as a PNG, but this way you can export it as an SVG too.
-4. Open the Asset Export window
-5. Select your entire icon and drag it into the Asset Export window.
+1. Create a new document that is 256px x 256px \(or larger, as long as it's square\). 
+2. Design your icon and place it within your artboard. 
+4. File » Export » Export for screens
 6. Select the export format:
    1. PNG
-   2. Click on "Scale" and change it from "1x" to "Width" — then enter 32px
-   3. If you want to export an SVG version too, you can click the "Add Scale" button 
+   2. Click on "Scale" and change it from "1x" to "32px".
+   3. Click the "Add scale" button and set the second row to "256px".
 7. Click Export
 
-**Set your favicon in Muse: **File &gt;&gt;&gt; Site Properties &gt;&gt;&gt; Content
+**Set your favicon in Webflow:**
 
-Watch a walkthrough of setting your favicon in Lynda's **Muse Essential Training \(**[**Ch 13. SEO Optimization**](https://www.lynda.com/Muse-tutorials/SEO-optimization/532182/577548-4.html)**\)**
+This is pretty easy, just go to your site's Settings page and scroll down on the General tab. Read full instructions here about [setting your favicon and touch icon](https://university.webflow.com/article/favicons-and-touch-icons).
+
+Upload both your 32px and 256px icons and see how they look in the browser... is the graphic legible in the tab bar? Should it have a transparent background? 
 
 ### Design Tips
 
@@ -67,9 +66,8 @@ When designing your artwork, consider where you want to put the image in your we
 
 Submit the following to Canvas:
 
-* Exported PNG image of your vector artwork; must be full-size, **i.e. larger than 32px x 32px**
-* Screenshot showing your favicon in a web browser \(use Muse's "preview in browser" feature\)
-* Screenshot showing your artwork in the website content \(in Muse or web browser\)
+* Exported PNG image of your vector artwork; must be full-size \(i.e. larger than 32px x 32px\).
+* Screenshot showing your favicon and touch icon in the Webflow project settings page. 
 
 \[INSERT SUBMISISON LINK\]
 

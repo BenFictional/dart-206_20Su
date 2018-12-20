@@ -50,9 +50,9 @@ SEO might seem like a strange thing to include on the same page as accessibility
 
 SEO and accessibility both revolve around an attention to detail and following standards adopted by web designers everywhere. Similar to accessibility, optimizing your site for search engines involves following some guidelines and considering the eventual uses throughout the entire design process—except these users aren't human.
 
-Once again text is essential. Computers can't tell a JPEG of a bunny from one of a motorcycle—unless they're powered by a powerful machine learning algorithm. You can upload images to Google's [Cloud Vision](https://cloud.google.com/vision/) to test it's image recognition abilities. But it's much easier for algorithms to analyze text, so it's important to include as much descriptive text as possible throughout your sites.
+Once again text is essential. Computers can't tell a JPEG of a bunny from one of a motorcycle—unless they're powered by a powerful machine learning algorithm. You can upload images to Google's [Cloud Vision](https://cloud.google.com/vision/) to test its image recognition abilities. But it's much easier for algorithms to analyze text, so it's important to include as much descriptive text as possible throughout your sites.
 
-There are bunch of Lynda videos about SEO—including [The 17 Minute SEO](https://www.lynda.com/Marketing-tutorials/17-minute-SEO/151545/415814-4.html) primer—but this stuff gets pretty advanced, so let's just cover some basics.
+There are bunch resources to learn about SEO—including [Lynda's 17 Minute SEO](https://www.lynda.com/Marketing-tutorials/17-minute-SEO/151545/415814-4.html) primer and [Webflow's brief video course](https://university.webflow.com/courses/seo-fundamentals-course)—but this stuff gets pretty advanced, especially since we're still designing our websites. A lot of SEO stuff should be done at the end of a project when you're preparing to launch it out into the world. But there are some basics worth discussing now.
 
 #### Good Content
 
@@ -74,7 +74,7 @@ This is a big component of making your site load quickly. Text takes up much, mu
 
 For images, if you're using a vector image created in Illustrator, the best solution is to save it as an SVG for use in web design. SVG's take up very little memory, but are best for simple artwork with flat colors. If you need to make your SVG's even smaller, you can upload them to[ SVGOMG ](https://jakearchibald.github.io/svgomg/)and download a compressed version.
 
-If you're working with photos, you'll have to save iamges as JPEG's. The best approach is to take a trip through Photoshop. Use "File &gt;&gt;&gt; Export &gt;&gt;&gt; Save for Web" to compress raster images, and adjust the "quality" setting as low as you can go without sacrificing the too much image quality \(I usually set the quality to 60\). You can watch a tutorial about this in the Lynda course: Photoshop CC for Web Design, Ch. 8, [Optimizing individual images](https://www.lynda.com/Photoshop-tutorials/Optimizing-individual-images/145211/166635-4.html?autoplay=true).
+If you're working with photos, you'll have to save images as JPEG's. The best approach is to take a trip through Photoshop. Use "File &gt;&gt;&gt; Export &gt;&gt;&gt; Save for Web" to compress raster images, and adjust the "quality" setting as low as you can go without sacrificing the too much image quality \(I usually set the quality to 60\). You can watch a tutorial about this in the Lynda course: Photoshop CC for Web Design, Ch. 8, [Optimizing individual images](https://www.lynda.com/Photoshop-tutorials/Optimizing-individual-images/145211/166635-4.html?autoplay=true).
 
 For raster images \(JPEG's and PNG's\) you should also check the image dimensions, as this can make a \_huge \_impact in the size of your file. If your image is 1920px wide but it's only displayed at 400px in your website, you can resize it in Photoshop \(Image &gt;&gt;&gt; Image Size\) to optimize your file size. For example, an image straight out of your camera might be 4000px wide and take up 4MB but an optimized web version could be 1000px wide and only take up 200kB \(that's twenty times smaller\).
 
@@ -87,4 +87,17 @@ Remember alt text? It helps Google know what your images are showing! If your si
 Hopefully you've been keeping your files organized all semester and using descriptive file names without any spaces—but if you haven't, know that it will hurt your SEO. This is important for images... make sure you use descriptive file names like "bunny-drinking-coffee.jpg" instead of "IMG\_07120417."
 
 Also make sure to use descriptive names for your actual web pages. If the contact page isn't called "contact.html" or something similar, it might not turn up when people search for it.
+
+#### Google Analytics
+
+This isn't necessary for our course, but if you're managing realworld sites in the future, you should learn how to set up and use [Google Analytics](https://analytics.google.com/analytics/web/), which is by far the simplest and most common method of tracking data about your site's audience. 
+
+By logging in with your Google account, you can create an analytics entry for your site and get a tracking code, which you can paste into any website, on Webflow, Wordpress, or a hand-coded HTML file. This bit of code lets Google gather data about anyone visiting your site, and shares it with you so you can easily learn things like:
+* Number of visitors over time
+* Visitor's general location and language.
+* Their device, screen size, web browser.
+* Which links they click on and how long they spend on each page.
+* How people got to your site (e.g. typing in the URL, via social media, links on other websites, or search results).
+
+All of this information can be used to fine tune your design. By learning about your audience, you can learn how they use your site and what their needs are. 
 

@@ -35,6 +35,10 @@ This course goes over how to create a typical business site layout, and more imp
 
 Whatdaya know... another course tailor made for this project! This course also uses the CMS tools, which you don't have to use. But this could still be useful, and it goes over fixed navigation menus and contact forms. 
 
+## [Symbols](https://university.webflow.com/article/symbols)
+This is the simplest way to reuse elements on multiple pages, such as a navbar or footer. Even if you're not using the CMS tools, this allows you to avoid changing the font-size on your header five times.
+
 ## [General Webflow Documentation](https://university.webflow.com/tutorials)
 Besides watchign video courses, you can quickly find specific answers here. Just search for whatever you're trying to build. 
+
 

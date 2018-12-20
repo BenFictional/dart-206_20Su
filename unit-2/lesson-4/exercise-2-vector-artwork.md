@@ -60,7 +60,7 @@ In these examples, the brand logos begin as [combination marks](https://99design
 
 For this exercise, you might make a traditional logo, but you could also make a more illustrative drawing. It will depend on the content of your site.
 
-When designing your artwork, consider where you want to put the image in your website in addition to the favicon. If you export the image as an SVG you can display it at any size, but a PNG will look pixelated if you create it at 320px wide but set it to occupy a 1000px wide space in Muse.
+When designing your artwork, consider where you want to put the image in your website in addition to the favicon. If you export the image as an SVG you can display it at any size, but a PNG will look pixelated if you create it at 320px wide but set it to occupy a 1000px wide space in the final website.
 
 ### Submission
 
@@ -68,6 +68,7 @@ Submit the following to Canvas:
 
 * Exported PNG image of your vector artwork; must be full-size \(i.e. larger than 32px x 32px\).
 * Screenshot showing your favicon and touch icon in the Webflow project settings page. 
+* Screenshot showing your large-scale vector graphic in the main website content. This can be a separate icon or illustration if you want.
 
 \[INSERT SUBMISISON LINK\]
 

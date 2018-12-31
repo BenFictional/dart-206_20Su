@@ -60,5 +60,13 @@ Some quick thoughts on navigation menus, which we haven't talked about much yet,
 
 ![](/assets/lesson-5/giphy-downsized.gif)
 
+As a quick thought experiment, consider all of the "rules" that must be programmed into the behavior of a responsive navigation menu:
+
+* When the screen size is smaller than a certain point, the nav menu is hidden and replaced with a hamburger icon or abbreviated menu.
+* Clicking the icon reveals an overlay containing the menu items, usually displayed in a new orientation (listed vertically instead of horizontally). 
+* There must be an obvious way to exit the menu and get back to the content: the expected conventions are to include an X button or to just click anywhere else on the page, which must be detected somehow. 
+
+All of those behaviors are outlined in CSS and Javascript (which is capable of detecting clicks on objects besides hyperlinks), and must be tested on a variety of screen sizes! Webflow makes makes these tasks easy, but it's worth thinking about what happens behind the scenes. 
+
 Learn about [managing your navigation menu](https://university.webflow.com/topic/navbar) in Webflow at the Webflow University. 
 

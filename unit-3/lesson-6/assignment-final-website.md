@@ -9,18 +9,13 @@ This is it—the final project!
 
 Review the Final Website Overview in Lesson 5 to refresh yourself on the premise of the website, but you should have a pretty good idea what you're doing by this point.
 
-Use the Lynda courses listed throughout Unit 2 and 3 as reference for working with Muse. Have you watched all of the following courses?
-
-* Design Aesthetics for the Web
-* Muse Essential Training
-* Designing a One-Page Scrollable site with Muse
-* Designing a Portfolio Site in Muse
+Use the tutorials linked to on the Advanced Webflow page for guidance and search on [Webflow University](https://university.webflow.com/) for additional help.
 
 ### Requirements for the final site
 
 * The final site must be published online through your remote PASS hosting.
   * The URL should be:** **[http://personal.psu.edu/YourName/final/index.html](http://personal.psu.edu/YourName/final/index.html)
-  * The folder named "final" should contain all of your HTML files along with the related assets exported from Muse. 
+  * The folder named "final" should contain all of the files exported from Webflow.
 * Your site must have at least five pages, including a designated home page.
 
 * Each page must have a header, navigation menu, and footer.
@@ -29,27 +24,23 @@ Use the Lynda courses listed throughout Unit 2 and 3 as reference for working wi
 
 ### Submission for Peer Review
 
-Publish your site online, either by using the publishing feature included in Muse, or by exporting the rendered HTML files and uploading them with Filezilla.
+For the peer review you may share your site using Webflow's hosting. Just publish the site and share the public URL. 
 
-Take a screenshot of your home page and post it to Open Studio along with the URL for your website.
+Please also submit a screenshot of your site to the Studio submission. 
 
 \[INSERT SUBMISSION LINK\]
 
 ### Submission to Canvas
 
-After making changes to your project, you should collect all the assets listed below into a single folder:
+For the final submission you should download the files from Webflow and upload them to your PASS server. That way you can access the site after this course ends and your free Webflow account is revoked. This is also how professional sites are maintained, so it's important to master this kind of file management. 
 
-* Initial written proposal  \(Lesson 5 Ex. 1\)
-* Three sketches: including mood board, color palette, etc. \(Lesson 5 Ex 2\)
-* Mockups—exported as packaged Illustrator folders \(Lesson 5 Assignment\)
+Download the HTML files and upload them to PASS using Filezilla or the browser explorer. Refer to the pages in Lesson 2 for help with this process. 
 
-* Design Summary \(updated to include revisions\)
+Submit the following to Canvas: 
 
-* Artist statement/Design Statement \(Lesson 6 Ex. 2\)
-
-* Muse Project file and assets \(not the exported HTML files, but the file you used to create the website\)
-
-Make sure the files are clearly labeled and organized, and then zip the folder and upload it to Canvas. Include your website URL in the Canvas submission. 
+* Exported site files in a zipped folder \(The HTML files downloaded from Webflow\). 
+* Written design summary \(updated to include revision and self assessment\).
+* Public URL to your site on PASS \(Included in design summary or as a Canvas comment\).
 
 
 

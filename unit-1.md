@@ -15,9 +15,8 @@ Beyond this course, the media authoring skills acquired can be applied/transferr
 ### Format
 
 * Lesson 1
-  * Exercise 1: Self-portrait site
-  * Exercise 2: Wordpress
-  * Assignment: First blog post
+  * Exercise: Create a blog
+  * Assignment: Norman blog post
 * Lesson 2
   * Exercise 1: Personal Typography
   * Exercise 2: Custom Fonts

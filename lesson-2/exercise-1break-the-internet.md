@@ -18,12 +18,14 @@ The landing page should include a variety of text, arranged to create an interes
 * A link to your Wordpress blog \(e.g. "My blog"\)
 * Space to add links to future websites
 * Additional text such as a:
-  * Poem
+  * List
+
   * Quote
   * Joke
   * Recipe
   * Description
   * Song lyrics
+  * Poem
   * ???
 
 ### Illustrator Setup

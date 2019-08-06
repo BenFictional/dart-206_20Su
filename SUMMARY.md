@@ -24,6 +24,7 @@
     * [HTML Crash Course](lesson-2/intro-to-html.md)
     * [CSS Crash Course](lesson-2/css-crash-course.md)
     * [PASS Hosting](lesson-2/pass-hosting.md)
+    * Meet Glitch
     * [Introducing Illustrator](unit-2/lesson-3/introducing-illustrator.md)
     * [The Grid](lesson-2/the-grid.md)
     * [Exercise 1: CSS Disco](lesson-2/exercise-1-css-disco.md)

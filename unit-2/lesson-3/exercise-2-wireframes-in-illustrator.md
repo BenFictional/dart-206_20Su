@@ -1,5 +1,3 @@
-## 
-
 Throughout this course we will use Illustrator to outline and develop our websites. This is common practice among design firms and freelancers, so let's get the terminology straight before we begin.
 
 ### ![](/assets/lesson-3/wireframe-mockup.png)

@@ -1,6 +1,15 @@
-This exercise is designed to get you started on building your Narrative Website with Webflow.
+This exercise will get you started on building your Narrative Website with Webflow.
 
-Create a new project in Webflow for your Narrative Website, and name it "Your Name Narrative" \(e.g. Jane Smith Narrative"\).
+## Project Setup
+
+When creating your Webflow account, make sure you join the "PSU ART-203" Team and do not simply create a normal free account. By joining the Team, you will not be limited to the restrictions placed on a normal account, and your projects will be visible to the entire class. That means I will be able to edit your sites and help troubleshoot your designs!
+
+
+**[Add Webflow-dashboard image here]**
+
+
+Create a new project in Webflow under the "PSU ART-203" Team account \(see the image for where to toggle between personal and Team dashboards\). If you accidentally create your site in your personal dashboard, it is possible to [transfer your site](https://university.webflow.com/article/transfer-a-project#transfer-the-project-to-a-team) between dashboards. Place your project in the folder called "Narrative Sites" and and name it "Your Name Narrative" \(e.g. Jane Smith Narrative"\).
+
 
 ## Add Fonts
 

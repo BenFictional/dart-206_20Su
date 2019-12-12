@@ -46,6 +46,7 @@
     * [Blog](unit-2/lesson-3/blog.md)
   * [Lesson4](unit-2/lesson4.md)
     * [Introducing Webflow](unit-2/lesson-4/introducing-muse.md)
+    * [Layout Basics ](unit-2/lesson-4/layout-basics.md)
     * [Exercise 1: Webflow Sketch](unit-2/lesson-4/exercise-1-muse-landing-page.md)
     * [Exercise 2: Vector Artwork](unit-2/lesson-4/exercise-2-vector-artwork.md)
     * [Assignment: Narrative Website](unit-2/lesson-4/assignment-narrative-website.md)

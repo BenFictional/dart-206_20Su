@@ -40,7 +40,7 @@ The page should include:
 
 Students will begin with a template website with a 12 column grid and customize it to meet their design needs. This type of "remixing" is a common process in web development and having some base CSS styles to start with will make your job easier. 
 
-👉 **See the next page for a link to the template site** and more detailed information on how to edit the files and customize the grid layout, including detailed tutorial videos.
+**See the next page for a link to the template site** and more detailed information on how to edit the files and customize the grid layout, including detailed tutorial videos.
 
 
 ---
@@ -49,9 +49,9 @@ Students will begin with a template website with a 12 column grid and customize 
 
 **Draft Assignment**
 
-Upload the HTML and CSS files to your PASS directory. Then take a screenshot of the webpage and submit it to the relevant assignment in Open Studio, along with the public URL.
+Take a screenshot of your website and submit it to the relevant assignment in the Studio section of the course website. Also include a public link for your Glitch project. This is NOT the URL you see while editing your code. To get the public, sharable link for your project, go to your profile page in glitch and click on the project. The link should look like `https://glitch.com/~your-project-name`
 
-**NOTE:** A public URL should begin with `http://` or `https://` — if your URL says `users` or `Documents` or anything like that it's a *local* path to a file on *your computer*, and no one will be able to view it on the Internet.
+Submit the link and screenshot to the Studio.
 
 <div class="row">
   <div class="col s12">
@@ -62,7 +62,7 @@ Upload the HTML and CSS files to your PASS directory. Then take a screenshot of 
 
 **Peer Review**
 
-Comment on at least three of your classmates' submissions in Open Studio.
+Comment on at least three of your classmates' submissions in the Studio.
 
 <div class="row">
   <div class="col s12">

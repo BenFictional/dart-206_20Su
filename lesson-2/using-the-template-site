@@ -1,0 +1,84 @@
+Everyone will begin with the same template project hosted on Glitch. You can "remix" the template to create an identical copy of it under your Glitch account and customize the code.
+
+**Visit the [grid-landing-page template](https://glitch.com/~grid-landing-page) and click the "Remix This" button.**
+
+The README.md file provides a basic overview of the the template site files, but we'll go into more detail here. Let's start with a tour of the template files and a look at how CSS Grid works.
+
+## Template Overview
+
+Grid Basics: https://www.youtube.com/watch?v=w4tVqY5US9U&
+
+The grid is created with the CSS property `display: grid` which won't work in really old browsers, so make sure you're not using Internet Explorer. You can apply `display: grid` to any HTML containter and its children elements can be placed within the columns or rows you define on the parent container. 
+
+In the template, we've applied this property to `<main class="grid-container">`so the direct children of that element will be "grid-items" that you can place and size according to your grid layout. To start with, all the grid-items are `<section>` elements, but you could use any HTML element. All the `<section>` elements will be arranged into the grid automatically. 
+
+The grid in the template only has columns defined (`grid-template-columns`). The width of each `<section>` is defined in CSS by telling it to span a certain number of columns, and if there's not room for an element in a row, it gets "pushed" onto a new row. By default, content is placed in the grid from left-to-right, top-to-bottom, in the order it is listed in the HTML file. 
+
+You can can create rows by the process described above \(by only defining the width of grid-items and "pushing" content down the page\), but for some layouts you may need to define rows for your grid as well—just add `grid-template-rows` to the CSS properties of `.grid-container` and define the number and size of rows you want. This gets complicated fast, so just start by playing around with the values in the template and watching the videos here. Both the HTML and CSS files included extensive comments \(displayed in gray\) to help you figure out what each line of code does. 
+
+**Additional Guides to CSS Grid:**
+* [A Beginner’s Guide to CSS Grid by Kara Luton \(10 min read\) ](https://medium.freecodecamp.org/a-beginners-guide-to-css-grid-3889612c4b35)
+* [CSS Grid for Beginners by Elad Shechter \(5 min read\) ](https://medium.com/@elad/css-grid-for-beginners-ee649080529b)
+
+
+### Adding Your Own HTML Content 
+
+You will add your text content to “index.html” as HTML elements like: `<p> <h1> <h2> <a> <ul>` etc.
+
+All your HTML elements should go below the “Your HTML content here” comment. That will put it inside the grid container; there is some example content there already to get you started.
+
+Note that each of the `<section>` elements within the container have a unique class name like “one”. You can add your own classes like "title" or "panda" or whatever makes sense to you. But there are some thing to keep in mind when naming things:
+* Don't begin a class with a number /(eg. `class=1st-section`/) because that's not allowed by the official CSS standards.
+* Don't use spaces! Name classes with:
+    * hyphens-for-what-is-known-as-kebab-case 
+    * or_underscores_for_snake_case
+    * orCapitalizeThingsLikeThisForCamelCase
+
+Inside of a `<section>` you can put HTML elements like `<h1>` or `<p>` or `<img>`. Note that `<section>` is a [semantic HTML container](https://www.w3schools.com/html/html5_semantic_elements.asp), which means that it functions exactly like a `<div>` but has a more meaningful name for humans and search engines reading the code.
+
+Be default the height of a `<section>` will be defined by its content. So a `<section>` with two paragraphs of text would be taller than one with just a few words. But you can explicitly define the height of a section with the `height` property in CSS or by defining [grid-rows](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows).
+
+
+## Implementing Your Design
+
+It's always good to have a skech or rendering of your website before you start building it, so in these videos I'll show you how to take an example site layout and implement it with the tempalte file. If you feel comfortable with the template files and CSS Grid, you can skip these and get to work, but it you want to see a step-by-step guide, grab a coffee and I'll see you in the videos!
+
+Preparing a sketched layout: https://www.youtube.com/watch?v=L5Mh2v85nj0
+
+Customizing the template: https://www.youtube.com/watch?v=3Una10s6D2c
+
+The second video goes over how to add images to your website, but you can read more about that over at [Interneting is Hard](https://www.internetingishard.com/html-and-css/links-and-images/).
+
+
+## Using the Web Inspector
+
+All web browsers have developer tools that let you peek under the hood of a website \(any website!\) and play around with the HTML and CSS. You can use checkbozes to toggle CSS properties on and off to troubleshoot issues, but when using CSS Grid, this also lets you see the otherwise-invisible lines of your grid. 
+
+[ciscode|rev=1|tool=elmsmedia|item=3152|entity_type=node|render=display_mode|display_mode=image]
+
+In Chrome, right click somewhere in your grid area and select “Inspect” then select the `<main class=”container”>` to see the grid lines.
+
+Firefox has the same thing, and it’s [inspection tool](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts) is actually even more suited to working with grid layouts becasue it will display the numbers of grid-lines and any [named grid-areas](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas).
+
+
+---
+
+
+## Guiding Thoughts
+
+* Feel free to delete the sample content.
+* Read all the comments, and try messing with the CSS properties to see what happens. You can always undo.
+* Check the CSS Crash Course page for other CSS properties to play with.
+* Try to accurately recreate your initial sketch, but if you find ways to improve your design or limitations of the CSS grid structure, then you can adapt your design as needed. Just try keep the same visual style and concept.
+
+## Additional Resources:
+
+* [Interneting is Hard](https://www.internetingishard.com/html-and-css/) — Basic tutorials for HTML and CSS, including using images, classes, and more.
+* [Google Fonts](https://fonts.google.com) and [Adobe Fonts](https://fonts.adobe.com/) — Get some cool fonts and paste the `<link>` code into the `<head>` section of your HTML.
+* [SVG Patterns](http://www.heropatterns.com/) — Copy and paste some code for awesome patterns!
+* [More SVG patterns](https://philiprogers.com/svgpatterns/)
+* [CSSmatic](http://www.cssmatic.com/) — A web tool to help create CSS gradients, rounded corners, drop shadows, and noise textures.
+* [Text Shadow generator](https://css3gen.com/text-shadow/) — Another web tool for drop shadows on text.
+
+
+

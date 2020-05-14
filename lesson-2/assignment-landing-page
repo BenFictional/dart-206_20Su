@@ -1,0 +1,186 @@
+# Assignment: Landing Page
+
+After completing the exercise for this lesson, you should have a basic understanding of HTML and CSS. This assignment will provide further experience designing with code and managing web assets.
+
+## Objectives:
+
+Upon completion of this assignment, you will be able to:
+
+* Adapt a prepared design to a functioning HTML project.
+* Create an engaging design based around a specific concept and passage of text.
+* Implement custom fonts to create a unique typographic composition.
+* Apply visual styles to HTML content using CSS, including a modern CSS Grid layout.
+* Publish a site using FTP and practice good file management.
+
+---
+
+## Overview
+
+The landing page should include a variety of text, arranged to create an interesting visual composition that welcomes users to your web space. The landing page should convey something about yourself, similar to the exercises in Lesson 1, but only using text. Come up with a theme or visual concept to base your landing page around. Consider the use of color and font choice, as well as creative use of a grid layout.
+
+The page should include:
+
+* Your name
+* A link to your Wordpress blog (e.g. "Blog")
+* Placeholders for future projects, just put "Assignment 2" and "Assignment 3" for now.
+* Additional text such as a:
+    * Bio
+    * Poem
+    * Quote
+    * Joke
+    * Recipe
+    * Description
+    * Song lyrics
+    * Data about yourself
+    * Philosophical or scientific analysis
+    * ???
+
+---
+
+## Template Project
+
+Everyone will begin with the same template, which is online as a Glitch project. You can "remix" the template to create an identical copy of it under your Glitch account and customize the code.
+
+**Visit the [grid-landing-page template](https://glitch.com/~grid-landing-page) and click the "Remix This" button.**
+
+In the left sidebar, you will see three files. Click on README.md to read an overview of how the project is set up, including how to use the template's built-in grid system.
+
+The grid is created with the CSS property `display: grid` which won't work in really old browsers, so make sure you're not using Internet Explorer.
+
+All the `<section>` elements will be arranged into a grid automatically. Give each section a unique `class` and then set how many columns it should occupy in `styles.css` with `grid-column: span 4` \(which will span 4 columns out of 12\).
+
+Both the HTML and CSS files included extensive comments \(displayed in gray\) to help you figure out what each line of code does. Try changing lots of things to see what happens in the actual website.
+
+
+## Adding Content
+
+You will add your text content to “index.html” as HTML elements like: `<p> <h1> <h2> <a> <ul>` etc.
+
+All your HTML elements should go below the “Your HTML content here” comment. That will put it inside the `<div class=”container”>` — which creates the 12 column grid that we’ll use to align our page. There is some example content there already to get you started.
+
+Note that each of the `<section>` elements within the container have a unique class name like “one”. You can add your own classes like "title" or "panda" or whatever makes sense to you. Just don't begin a class with a number because that's not allowed by the official CSS standards.
+
+Inside of a `<section>` you can put an `<h1>` or a `<p>` or multiple elements. `<section>` is a semantic HTML container, which means that it functions just like a `<div>` but has a more meaningful name for humans and search engines reading the code.
+
+
+## Working with CSS
+
+Open the `styles.css` file to view the existing CSS code. The gray text denotes comments that I left to explain what specific lines of code do. The comments don’t actually affect the website.
+
+There are various places you can customize the colors, fonts, and more. See the previous CSS Crash Course page for more information and various properties to try out.
+
+There is a bit of code that applies color and spacing styles to ALL the `<section>` elements but let’s look at how the sections are placed on the 12 column grid. The layout is controlled by applying `display:grid` to the `.container` element that encloses all of our content divs. This is a relatively new CSS feature, but it makes it super easy to create grid-based layouts, so we're going to use it here instead of older, more complicated methods.
+
+**Make sure your browser is up to date** and you shouldn't have any problems. CSS Grid is [supported](https://caniuse.com/#search=grid) in the last several versions of Chrome, Firefox, and Safari. The only place you might run into trouble is Microsoft Edge, which only supports Grid in versions 16 and up, or Internet Explorer—which doesn't support `display: grid` at all. But you shouldn't be using IE because it was replaced with Edge in 2016. The web is constantly evolving, and while it's important for websites to load on your uncle's ten year old desktop, we should be running current software for ourselves.
+
+Okay, here's how to set up your grids...
+
+## Setting column widths
+
+The section with class “one” says the following:
+
+`.one { grid-column: span 12;}`
+
+The [grid-column](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column) property defines how many columns the elements will occupy on our grid. By setting the value to `span 12` it will span the full width of the container. If you put `span 6` it would span half of the container’s width.
+
+By default, all the sections are placed from left to right, moving down the page as necessary. That means if you have an element of `span 8` and another one of `span 6`, there won’t be enough room for the second one to fit next to the first one, and it will be pushed down onto the second row. I encourage you to try changing these numbers to see what happens.
+
+In the example, sections two, three, and four are all set to `span 4` so they can fit together in one row \(4+4+4=12\).
+
+## Controlling Height
+
+Be default the sections' height will be defined by their content. So a `<div>` with two paragraphs of text would be taller than one with just a few words. But you can explicitly define the height of a section with the `height` property in CSS. Several of the sections are defined this way in the example content.
+
+The [CSS grid](https://www.w3schools.com/css/css_grid.asp) system is very powerful, and offers some other ways to define the height of rows, but I think it’s easier for you to just do it manually with the `height` property and focus on measuring things by columns.
+
+## Advanced Methods
+
+Finally, section five shows a more complex way of placing content on the grid: that element is four columns wide, but there’s some empty space on either side!
+
+If you simply wrote `grid-column: span 4` the div would begin on the left edge of the container. Instead, what I’ve done is specify a beginning and end point for the div by writing `grid-column: 3 / 11`
+
+Our grid has 12 columns, which means there are 13 vertical lines defining the grid (draw a grid on a piece of paper if you’re confused). The code above tells section five to begin at line 3 and end at line 11. This is a little more complex, so you can stick using the “span” method if you want.
+
+[ciscode|rev=1|tool=elmsmedia|item=3152|entity_type=node|render=display_mode|display_mode=image]
+
+To see the grid more clearly in your browser, you can use the Inspector tool in Chrome or the Live Preview browser connected to Brackets. Right click somewhere in your grid area and select “Inspect” then select the `<main class=”container”>` to see the grid lines.
+
+Firefox has the same thing, and it’s [inspection tool](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts) is actually even more suited to working with grid layouts, but the Live Preview tool in Brackets is very helpful for beginners.
+
+
+This method of arranging content on a grid is fairly new to CSS, but there are lots of great tutorials online. Be careful, though if you’re new to CSS these articles might be more info than you want.
+
+* [A Beginner’s Guide to CSS Grid by Kara Luton \(10 min read\) ](https://medium.freecodecamp.org/a-beginners-guide-to-css-grid-3889612c4b35)
+* [CSS Grid for Beginners by Elad Shechter \(5 min read\) ](https://medium.com/@elad/css-grid-for-beginners-ee649080529b)
+
+
+---
+
+## Guiding Thoughts
+
+* Feel free to delete the sample content.
+* Read all the comments, and try messing with the CSS properties to see what happens. You can always undo.
+* Check the CSS Crash Course page for other CSS properties to play with.
+* Try to accurately recreate your initial sketch, but if you find ways to improve your design or limitations of the CSS grid structure, then you can adapt your design as needed. Just try keep the same visual style and concept.
+
+## Fun CSS to play with:
+
+* [SVG Patterns](http://www.heropatterns.com/) — copy and paste some code for awesome patterns!
+* [More SVG patterns](https://philiprogers.com/svgpatterns/)
+* [CSSmatic](http://www.cssmatic.com/) — a web tool to help create CSS gradients, rounded corners, drop shadows, and noise textures.
+* [Text Shadow generator](https://css3gen.com/text-shadow/) — Another web tool for drop shadows on text.
+
+
+---
+
+## Submissions
+
+**Draft Assignment**
+
+Upload the HTML and CSS files to your PASS directory. Then take a screenshot of the webpage and submit it to the relevant assignment in Open Studio, along with the public URL.
+
+**NOTE:** A public URL should begin with `http://` or `https://` — if your URL says `users` or `Documents` or anything like that it's a *local* path to a file on *your computer*, and no one will be able to view it on the Internet.
+
+<div class="row">
+  <div class="col s12">
+    <lrn-button class="center" color="white-text deep-purple" target="blank" href="https://studio.aanda.psu.edu/dart203/apps/lrnapp-studio-kanban" label="Open Studio">
+    </lrn-button>
+   </div>
+  </div>
+
+**Peer Review**
+
+Comment on at least three of your classmates' submissions in Open Studio.
+
+<div class="row">
+  <div class="col s12">
+    <lrn-button class="center" color="white-text deep-purple" target="blank" href="https://studio.aanda.psu.edu/dart203/apps/lrnapp-studio-kanban" label="Open Studio">
+    </lrn-button>
+   </div>
+  </div>
+
+**Final Assignment**
+
+For the final submission, we're going to download the files and upload them to PASS for permanent hosting. This also gives you some practice managing files.
+
+[ciscode|rev=1|tool=elmsmedia|item=5255|entity_type=node|render=display_mode|display_mode=image]
+
+1. In the Glitch editor, click "Tools" in the lower left.
+2. Select "Git, Import, and Export" then click "Download Project" button to download a zip file containing your project files.
+3. Double-click the file to unzip into a folder. Check that all the files are there, noting that "style.css" is inside a folder called "css".
+4. Upload these files and the "css" folder to your PASS directory using Filezilla or the PASS browser interface. Make sure to place these files inside the [www] folder within your directory.
+
+![land-page-ftp](/unit-1/lesson-2/land-page-ftp.png)
+
+**Submit the following to Canvas:**
+
+* Your site directory for the landing page; a zip folder containing index.html and your CSS file.
+* A written design summary, created using the template [(see next page)](https://courses.aanda.psu.edu/dart203/node/172) saved as a PDF or DOCX.
+* The public URL for your site \(included in the design doc or as a comment in Canvas\) — Remember this should begin with "http://" not "file:///Users".
+
+
+<div class="row">
+  <div class="col s12">
+ 
+   </div>
+  </div>
